@@ -4,8 +4,8 @@
 vendor/firmware/libpn548ad_fw.so|88a35cebace27c3a93439972660f034b
 
 # RIL
-lib/libsec-ril.so|7afe805d4012754d255cf5418eb64c73
-lib/libsec-ril-dsds.so|51f1d1710cab852d1498a43728743db7
+lib/libsec-ril.so:vendor/lib/libsec-ril.so|7afe805d4012754d255cf5418eb64c73
+lib/libsec-ril-dsds.so:vendor/lib/libsec-ril-dsds.so|51f1d1710cab852d1498a43728743db7
 
 # Sensors
-lib/hw/sensors.msm8916.so:lib/hw/sensors.vendor.msm8916.so
+lib/hw/sensors.msm8916.so:vendor/lib/hw/sensors.vendor.msm8916.so
